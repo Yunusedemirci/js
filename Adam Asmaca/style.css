@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #8b8b8be8;
+}
+
+#headerContainer {
+  background-color: #ffa600;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#word {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.letter {
+    border-bottom: 3px solid yellow;
+    font-size: 30px;
+    margin: 0 3px;
+    height: 40px;
+    width: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrongLettersTitle {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+  margin-top: 3%;
+}
+
+#wrongLettersElement {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: red;
+}
+
+#popup{
+    display: none;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    background-color:green;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#correctWordMessage {
+    position: relative;
+    top: 40%;
+    right: 50%;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+#allWordsContainer{
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: yellow;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    text-align: center;
+    display: none;
+}
+
+#displayAllWords{
+    display: flex;
+    flex-direction: column;
+}
+
+#addWord{
+    height: 50px;
+    margin-left: 35%;
+}

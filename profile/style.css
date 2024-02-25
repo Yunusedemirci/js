@@ -1,0 +1,100 @@
+body{
+    background-color: #4b4b4b;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#headerContainer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    height: 10%;
+}
+
+#search{
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+}
+
+#profileContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-top: 10%;
+}
+
+.card {
+    width: 300px; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+}
+
+#avatarImage {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+
+#userName {
+    margin-top: 0; 
+    margin-bottom: 5px; 
+}
+
+#realName,
+#location,
+#email,
+#biography {
+    margin-top: 5px; 
+    margin-bottom: 0; 
+    font-size: 14px; 
+    color: #333; 
+}
+
+
+#repoContainer {
+    padding: 20px;
+}
+
+.card2 {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#allRepos {
+    margin-top: 20px;
+}
+
+#allRepos a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#allRepos a:hover {
+    color: #007bff;
+}
+
+#repoStar, #repoFork {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #777;
+}
+
+#publicRepos {
+    list-style: none;
+    padding: 0;
+}
+
+#publicRepos li {
+    margin-bottom: 5px;
+}
